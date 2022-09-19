@@ -1,16 +1,61 @@
-# dogs_app
+# DogBar
 
-A new Flutter project.
+## Getting started
 
-## Getting Started
+You will need to install Node.js and Flutter on your machine.
 
-This project is a starting point for a Flutter application.
+### Node.js Setup
+For best results, use [Node.js 16 or higher](https://nodejs.org/).
 
-A few resources to get you started if this is your first Flutter project:
+You can check your current version of Node.js with
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```sh
+$ node --version
+v16.17.0
+```
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Then, inside this project, run
+
+```sh
+npm install
+node server.js
+```
+
+If the server starts successfully, you will see
+
+```sh
+Server running on http://localhost:3011
+```
+
+in the terminal.
+
+### Flutter Setup
+First, install the Flutter SDK and add the flutter tool to your path.
+
+Then run
+
+```
+flutter doctor
+```
+
+to make sure flutter is installed and in your path.
+
+For more specific installation and setup, view https://docs.flutter.dev/get-started/install
+
+## Running the project
+To run the application, run
+
+```
+ ./run.sh
+```
+
+and a chrome window should open with the application running (It may take a short amount of time to load).
+
+For more information about running flutter web apps, view https://docs.flutter.dev/get-started/web
+
+## Documentation
+
+- Koa: https://koajs.com/
+- @koa/router: https://github.com/koajs/router#koarouter
+- koa-body: https://github.com/dlau/koa-body#usage-with-koa-router
+- Dogs API: https://dog.ceo/dog-api/breeds-list
